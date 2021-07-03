@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Resizer</title>
+  </head>
+  <body>
+    <div class="inputs">
+      <h2>Resize your Image</h2>
+      <form>
+        <label for="file" class="upload">Upload an Image</label>
+        <input type="file" id="file" accept="image/*" />
+        <img
+          src="./MobileMediaPoster-553a691ac40df070a04c82b601a117ec.jpg"
+          id="uploaded__image"
+          alt=""
+        />
+
+        <input type="number" id="imWidth" placeholder="Enter width in px" />
+
+        <input type="number" id="imHeight" placeholder="Enter height in px" />
+      </form>
+
+      <button type="submit" id="preview">Preview</button>
+    </div>
+
+    <div class="wrapper">
+      <canvas id="result">
+        <img src="" id="imgDisplayed" alt="" />
+      </canvas>
+      <button id="down">Download</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

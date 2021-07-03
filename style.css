@@ -1,0 +1,113 @@
+/* body {
+  background-image: linear-gradient(rgb(235, 77, 111), rgb(255, 255, 255));
+  background-repeat: no-repeat;
+}
+
+/* display loading gif and hide webpage */
+/* .modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8) url("http://i.stack.imgur.com/FhHRx.gif")
+    50% 50% no-repeat;
+} */
+
+/* prevent scrollbar from display during load */
+/* body.loading {
+  overflow: hidden;
+}
+
+/* display the modal when loading class is added to body */
+/* body.loading .modal {
+  display: block;
+} */
+
+/* .button {
+  border: black 1px solid;
+  border-radius: 24px;
+  color: rgb(196, 6, 6);
+  padding: 10px;
+  margin-left: auto;
+  font-size: 20px;
+  height: 60px;
+  width: 150px;
+  background-color: black;
+  align-items: center;
+}*/
+
+/* display loading gif and hide webpage */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8) url("http://i.stack.imgur.com/FhHRx.gif")
+    50% 50% no-repeat;
+}
+
+/* prevent scrollbar from display during load */
+body.loading {
+  overflow: hidden;
+}
+
+/* display the modal when loading class is added to body */
+body.loading .modal {
+  display: block;
+}
+#uploaded__image {
+  height: 300px;
+  width: 400px;
+}
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  margin-left: 5%;
+  padding: 0;
+}
+
+.inputs,
+.wrapper {
+  width: 45%;
+  height: auto;
+  float: left;
+  margin: 1em;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+input {
+  display: table;
+  margin-bottom: 1em;
+  width: 60%;
+  font-size: 16px;
+  border: 2px solid #78a0f1;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+}
+
+.upload,
+button {
+  color: #fff;
+  background: #78a0f1;
+  padding: 5px;
+  border: 2px solid #78a0f1;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
